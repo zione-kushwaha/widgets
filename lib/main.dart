@@ -1,4 +1,9 @@
+import 'package:a/cliprrectScreen.dart';
 import 'package:a/futurescreeen.dart';
+import 'package:a/gridviewScreen.dart';
+import 'package:a/listviewScreen.dart';
+import 'package:a/paddingScreen.dart';
+import 'package:a/texteffect.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Futurescreeen(),
+      home: Cliprrectscreen(),
     );
   }
 }
