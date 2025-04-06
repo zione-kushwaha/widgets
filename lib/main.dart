@@ -1,9 +1,15 @@
+import 'package:a/aspectRatioScreen.dart';
 import 'package:a/cliprrectScreen.dart';
 import 'package:a/futurescreeen.dart';
 import 'package:a/gridviewScreen.dart';
 import 'package:a/listviewScreen.dart';
+import 'package:a/margin_padding.dart';
+import 'package:a/new_screen.dart';
 import 'package:a/paddingScreen.dart';
+import 'package:a/positioinedScreen.dart';
+import 'package:a/spacer.dart';
 import 'package:a/texteffect.dart';
+import 'package:a/wrapScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Cliprrectscreen(),
+      home: Aspectratioscreen(),
     );
   }
 }
